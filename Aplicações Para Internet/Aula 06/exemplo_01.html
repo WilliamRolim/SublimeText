@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Exemplos</title>
+    <style>
+    /* [atributo] -> formata todos os elementos (tags) com o atributo especificado */
+        a[target]{
+            background-color: yellow;
+            padding: 10px;
+        }
+    /* [atributo$=valor] -> formata os elementos em que o atributo termine com o valor especificado*/
+        a[href$=".com"]{
+            font-size: 12px;
+            color: #f00;
+        }
+    /* [atributo*=valor] -> formata os elementos com o atributo especificado e que contenham o valor (substring) em seu conteúdo*/
+        a[href*=".br"]{
+            font-size: 25pt;
+            color:#00f;
+        }
+    /* [atributo~=valor] -> formata os elementos com o atributo especificado e que contenham o valor (palavra exata) em seu conteúdo */
+        img[alt~=imagem]{
+            border: 5px solid #f00;
+        }
+    /*[atributo*=valor] -> formata os elementos com o atributo especificado e que contenham o valor (substring) em seu conteúdo*/
+        img[src*=jpg]{
+            border-radius: 10px;
+        }
+
+
+    </style>
+</head>
+<body>
+    <h1>Exemplos</h1>
+
+    <a href="http://www.w3schools.com">W3schools</a>
+    <a href="http://www.google.com.br" target="_blank">Google</a>
+
+    <h2> Outro exemplo</h2>
+    <img src="imagens/img1.png" alt="alguma  imagem png">
+    <img src="imagens/img2.png">
+    <br/>
+    <img src="imagens/img3.jpg" alt="imagem jpg">
+    <img src="imagens/img4.jpg">
+
+    <h2> Mais alguns</h2>
+    <a href="http://www.amazon.com.br/">Amazon BR</a>
+    <a href="http://www.amazon.com/">Amazon En</a>
+</body>
+</html>

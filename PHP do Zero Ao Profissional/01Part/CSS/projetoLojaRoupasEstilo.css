@@ -1,0 +1,132 @@
+*{/* todos os elementos do meu site vão ter as caracteristicas digitadas aqui */ 
+font-family: Arial;
+}
+
+body{/*criar todos os espaçamentos laterais */
+	margin:0;
+	padding: 0; 
+}
+
+.topo{
+	height: 50px;
+	background-color: #353535;
+}
+
+.topoInterior{
+	width: 1000px;
+	margin:auto;/*colocar uma imagem no meio da tela - margim augo */
+	color:#FFFFFF;
+
+}
+
+.logoMarca{
+	float: left;/*grudado na parte esquerda */
+	font-size: 24px;
+	line-height: 50px;/*o tamanho da altura entre as divs(quadrado) é 50px */
+}
+
+.menu{
+	float:right;
+}
+
+.menu ul,
+.menu li{
+	margin:0;/*{para tirarmos toda as margens que ela tiver*/
+	padding:0;/*{para tirarmos toda as margens que ela tiver*/
+    list-style: none;/* Tirar o style da lista */
+}
+
+.menu li{
+	float: left;
+	padding-left:10px; /*o estaçamento na esquerda entre os menus */
+	padding-right: 10px;
+	line-height: 50px;/*o tamanho da altura entre as divs(quadrado) é 50px */
+	font-size: 14px;
+	cursor: pointer;/*cria uma mãozinha ao selecionar o menu */
+
+}
+
+.menu li:hover{/*Aplicar efeito colorido ao posicionar o mouse no menu */
+background-color: #3480C1;
+}
+
+.banner{
+	height: 300px;
+	background-color: #647ABA;
+}
+
+.bannerInterior{
+	width: 1000px;
+	margin:auto;
+}
+
+.bannerEsquerda{
+	float: left;
+
+}
+
+.bannerDireita{
+	float:right;
+}
+
+.bannerDireita img{
+	margin-right: 55px;
+}
+
+.frase1{
+	font-size: 48px;
+	color: #FFFFFF;
+	margin-top:60px;/*Distantia da margem do topo do texto*/
+}
+
+.frase2{
+	font-size: 20px;
+	color:#FFFFFF;
+}
+
+.botao{
+	background-color:#ffc001;
+	width: 282px;
+	height: 56px;
+	font-size: 20px;
+	text-align: center;
+	line-height: 56px;/*alinhar verticalmente o texto do botão - mesmo valor que o height*/
+	margin-top: 20px;
+	cursor:pointer;
+	border-radius: 5px;/*Arredondar a borda*/
+}
+
+div .botao:hover{
+	background-color: #D2691E;
+}
+
+/*Terceira Etapa*/
+
+.conteudoInterno{
+	width: 1000px;
+	margin:auto;
+}
+
+.outrosProdutos{
+	height: 90px;
+	font-size: 20px;
+	text-align:right;
+	line-height: 90px;/* alterar a distancia verticalmente */
+}
+
+.fotos img{
+	margin-left: 10px;
+	margin-right: 10px;
+	
+}
+
+.rodape{
+	background-color: #347ABA;
+	color: #FFFFFF;
+	height:50px;
+    text-align: center;
+    line-height: 50px;/* altura do texto */
+    margin-top: 40px;
+
+
+}

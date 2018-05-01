@@ -1,0 +1,467 @@
+@font-face{
+	font-family: 'OpenSans';
+	src: url("C:/Users/willi/Documents/SublimeText/CursoDoDesenvolvedor HTML CSS JAVASCRIPT/Projeto 02 Teste/Fonts/OpenSans-Regular.ttf");
+	font-size: 1em; /*se vc estiver em algum dispositivo mobile 'em' irá adaptar automaticamente */
+}
+
+@font-face{
+	font-family: 'OpenSans';
+	src: url("C:/Users/willi/Documents/SublimeText/CursoDoDesenvolvedor HTML CSS JAVASCRIPT/Projeto 02 Teste/Fonts/OpenSans-Light.ttf");
+	font-size: 1em; /*se vc estiver em algum dispositivo mobile 'em' irá adaptar automaticamente */
+}
+header {
+	width: 100%;
+	height:150px;
+	background-color: rgba(94,41,154, .9);
+	z-index: 2;
+	position: relative;
+
+}
+
+header .container {
+position: relative;
+}
+
+header .header-black{
+	background-color: #000;
+	height: 40px; /* altura */
+}
+
+header #logotipo {
+	position: absolute;
+	top: 20px; 
+}
+
+header .header-black li {
+	background-image: url("C:/Users/willi/Documents/SublimeText/CursoDoDesenvolvedor HTML CSS JAVASCRIPT/Projeto 02 Teste/Png/LAYOUTS/clubes.png");
+	background-repeat: no-repeat;
+	display: inline-block;
+	margin: 4px 2px ;
+}
+
+/* li se espaço pois clube 01 não é filho de li e faz parte de li */
+ background-position: 0px 0px;
+}
+
+header .header-black li.club-01 {/* li se espaço pois clube 01 não é filho de li e faz parte de li */
+ background-position: 0px 0px;
+}
+
+header .header-black li.club-02 {/* li se espaço pois clube 01 não é filho de li e faz parte de li */
+ background-position: -48px 0px;
+}
+
+header .header-black li.club-03 {/* li se espaço pois clube 01 não é filho de li e faz parte de li */
+ background-position: -95px 0px;
+}
+
+header .header-black li.club-04 {
+ background-position: -140px 0px;
+}
+
+header .header-black li.club-05 {
+ background-position: -190px 0px;
+}
+
+header .header-black li.club-06 {
+ background-position: -240px 0px;
+}
+
+header .header-black li.club-07 {
+ background-position: -290px;
+}
+
+header .header-black li.club-08 {
+ background-position: -340px 0px;
+}
+
+header .header-black li.club-09 {
+ background-position: -383px 0px;
+}
+
+header .header-black li.club-10 {
+ background-position: -430px 0px;
+}
+
+header .header-black li.club-11 {
+  background-position: -480px 0px;
+}
+
+header .header-black li.club-12 {
+ background-position: -530px 0px;
+}
+
+header .header-black li.club-13 {
+ background-position: -579px 0px;
+}
+
+header .header-black li.club-14 {
+ background-position: -630px 0px;
+}
+
+header .header-black li.club-15 {
+ background-position: -679px 0px;
+}
+
+header .header-black li.club-16 {
+ background-position: -723px 0px;
+}
+
+header .header-black li.club-17 {
+ background-position: -768px 0px;
+}
+
+header .header-black li.club-18 {
+ background-position: -810px 0px;
+}
+
+header .header-black li.club-19 {
+ background-position: -860px 0px;
+}
+
+header .header-black li.club-20 {
+ background-position: -910px 0px;
+}
+
+header .header-black li.club-21 {
+ background-position: -951px 0px;
+}
+
+header .header-black li.club-22 {
+ background-position: -1000px 0px;
+}
+
+
+header .header-black li a {
+	width: 32px;
+	height: 32px;
+	display: block;
+}
+#menu{
+	margin: 12px 0;
+}
+#menu li{
+	display: inline-block;
+	font-family: 'OpenSans';
+}
+
+#menu li.search{
+	width: 182px;
+}
+
+#menu li.search input{
+background-color: #5C2D90;
+color: #FFF;
+border: none;
+}
+/*
+seletores do webkit: são seletores avançados é para acionar o recurso dentro do seletor do navegador, que oficialmente não
+está disponivel */
+#menu li.search ::-webkit-input-placeholder {
+	color:#fff ;
+}
+
+#menu li.search button{
+	background: none;
+	border: none;
+	position: absolute;
+	right: 3px;
+	top: 7px;
+}
+
+#menu li.search button i{
+font-size: 14px;
+color: rgba (255,255,255, .5); 
+}
+
+#menu li a{
+	color: #FFF;
+	size: 16px;
+	padding: 10px 25px;
+	font-weight: bold;
+}
+
+#menu li.search .input-group{ /*sobrescrever o tema do bootstrap*/
+	top:8px;
+}
+
+#banner {
+	width: 100%;
+	height: 728px;
+	position: relative;
+	background: url("C:/Users/willi/Documents/SublimeText/CursoDoDesenvolvedor HTML CSS JAVASCRIPT/Projeto 02 Teste/Png/LAYOUTS/soccer.jpg") no-repeat;
+	top: -110px;
+}
+
+#banner h1{
+	color: #fff;
+	top:300px;
+	position: relative;
+	font-size: 92px;
+	text-shadow: 2px 2px 2px rgba(0,0,0, .45);
+	font-family: 'OpenSans-Light';
+	margin-left:50px;
+}
+
+#banner h1 small{
+	font-size: 32px;
+	display: block;
+	color: #fff;
+}
+
+#news {
+	position: relative;
+	top: -130px; 
+}
+#news h2 {
+	color: #5E2799;
+	font-family: 'OpenSans-Light';
+	font size: 48px;
+	text-transform: uppercase;/*Tranformar o texto em maiusculo*/
+	text-align: center;
+}
+
+#news hr{
+border: #FDE129 solid 8px;
+width: 200px;
+margin: 0 auto; /* Expressão para centralizar o alimento - */
+}
+
+#news .thumbnails {
+	margin-top: 20px;
+}
+
+#news .thumbnails h3 {
+	color:#5E2799;
+	font-size: 18px;
+	font-family: 'OpenSans';
+	font-weight: bold;
+	margin-bottom: 0;/* RETIRAR O ESPAÇO ENTRE OS TEXTOS- */
+}
+
+#news .thumbnails time {
+	color:#A7A7A7;
+	font-size: 18px;
+	font-family: 'OpenSans';
+}
+
+#estatisticas{
+	background-color: #5E2799;
+	width: 1329px; /* largura */
+	height: 200px;
+	text-align: center;
+}
+
+#estatisticas p{
+	color: #FDE092;
+	text-transform: uppercase;
+	font-family: 'OpenSans-Light';
+	font-size: 64px;
+	margin-top: 33px;
+}
+
+#estatisticas p small{
+	color: #fff;
+	font-size: 24px;
+	display:block;  /*permite que vc exiba aquele elemento, como elemento de bloco, automaticamente ele quebra a linha */
+	}
+
+#call-to-action {
+	text-align: center;
+	margin-top: 105px;/*distancia da margem*/
+}
+
+#call-to-action h2{
+	color: #5E2799;
+	font-family:'OpenSans-Light';
+	font-size: 48px;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+#call-to-action hr {
+	border: #FDE192 solid 8px;
+	width: 200px;
+	margin: 0 auto;
+}
+
+#call-to-action p {
+	margin-top: 60px;
+	margin-bottom: 40px;
+	color: #656565;
+	font-size: 13px;/**/
+	text-align: center;	
+}
+
+#call-to-action .btn {
+	min-width: 164px;
+	height: 44px; 
+	line-height: 34px;/*alinhar o texto dentro do botão */
+	border-radius: 0;/*Não ter as laterais arredondadas do botão */
+}
+
+#call-to-action .btn-roxo {
+	color:#fff;
+	background-color: #5E2799;
+	border-color: #5E2799A;
+
+}
+
+#call-to-action .btn-amarelo {
+ color: #000;
+ background-color: #FDE192;
+ border-color: #FDE192;
+
+}
+
+#call-to-action .row-max-400 {
+	margin: 0 auto;
+	max-width: 400px;
+}
+
+footer {
+	margin-top:450px;
+}
+footer .row {
+	width: 100%;
+
+}
+
+footer .row p{
+line-height: 60px; /* line-height altura da linha */
+margin-bottom: 0;
+}
+
+footer .row-cinza-claro{
+height: 200px; /*altura*/
+background-color: #171F26
+
+}
+
+footer .row-cinza-escuro{
+	height: 60px;
+	background-color:#11171D;
+	border-top: #242D37 1px solid; /* border top só coloca borda no TOPO */
+}
+
+footer .pull-left{
+	font-family: 'OpenSans';
+	font-size: 14px;
+	color:#666;
+}
+
+footer .text-roxo{
+	color:#623291;
+	font-family: 'OpenSans'
+	font-weight: bold;
+	font-size: 14px;
+}
+
+/*
+Para fins didaticos, ver os quadrantes
+footer .col-red{
+	border:red 2px solid;
+	height: 200px;
+}
+
+footer .col-yellow{
+	border:yellow 2px solid;
+	height: 200px;
+}
+
+*/
+
+footer .logotipo{
+	margin-top: 28px;
+} 
+
+footer .col-popular-post, /*margin-top está em todos os itens */
+footer .col-links,
+footer .col-get-in-touch{
+margin-top: 40px;
+}
+
+footer .row-cols h4{
+ font-family: 'OpenSans';
+ font-size:16px;
+ color:#FFF;
+ padding-bottom: 17px; /*Define a largura da área de preenchimento inferior dos elementos*/
+ border-bottom:#242D37 1px solid;
+}
+
+footer .row-cols h5{
+	color: #666;
+	font-family: 'Arial';
+	font-size: 14px;
+	margin-bottom: 0;/*A propriedade margem-inferior define a margem inferior de um elemento.Nota: valores negativos são permitidos.*/
+}
+
+footer .row-cols time{
+	color:#FDE092;
+	font-family: 'Arial';
+	font-size: 14px;
+}
+/*
+footer .rows-cols ul{
+	list-style: none;/*tirar o marcador do texto 
+}
+*/
+footer .col-links a,
+footer .col-links a{
+	color: #FFF;
+	font-family: Arial;
+	font-size: 14px;
+}
+
+footer .col-links .fa{
+	margin: 0 6px;
+}
+
+footer .col-get-in-touch address {
+color: #666;
+font-family: Arial;
+font-size: 14px;
+margin-bottom: 0;
+}
+
+footer .col-get-in-touch address span {
+	display: inline-block;
+}
+
+footer .col-get-in-touch address i{
+	position: relative;
+	top:-14px;
+}
+
+footer .col-get-in-touch i { /* O HYPER LINK NÕA ERDA A CONFIGURAÇÃO DA FONTE FAZER SEPARADO */
+	color: #9B9B9B;
+	font-size: 20px;
+	margin: 0 6px;
+}
+
+footer .col-get-in-touch p {
+	line-height: 20px;
+}
+
+footer .list-socials {
+	margin-top: 4px; 
+}
+
+footer .list-socials li{
+	display: inline;
+}
+
+footer .list-socials a{
+	display: block;
+	border: #9B9B9B 1px solid;
+	width: 28px;
+	height: 28px;
+	line-height: 28px;
+	border-radius: 14px;
+	text-align: center;
+}
+
+footer .list-socials i{
+	font-size: 16px;
+	margin: 7px auto;
+}

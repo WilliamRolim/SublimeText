@@ -1,0 +1,54 @@
+body{
+	background-color: skyblue;
+}
+
+#principal{
+	width: 757px;
+	margin: 0 auto;
+	background-color: red;
+}
+
+#topo_geral{
+	background-image: url(../imagens/topo.JPG);
+	height: 62px;
+	background-repeat: no-repeat;
+}
+
+nav{
+	background-color: green;
+	height: 62px;
+	padding: 5px; 
+	/*padding propriedades são usadas para gerar espaço em torno
+	 do conteúdo de um elemento, dentro de quaisquer fronteiras definidas.
+	Com CSS, você tem controle total sobre o preenchimento. 
+	Existem propriedades de fixação da cobertura para cada lado de 
+	um elemento (em cima, direita e inferior, e à esquerda).*/
+}
+
+ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+li{
+	display: inline;/*conteudo na mesma linha*/
+}
+
+article{
+	background-color: white;
+	padding: 50px;
+}
+
+article>p{
+	text-align: justify;
+}
+
+h2{
+	color: gray;
+}
+
+.data{
+	color: blue;
+	font-size: 8pt;
+}

@@ -1,0 +1,3 @@
+display: flex;/*flexbox por padrão a organização será horizontal em forma de linha*/
+Flexbox:
+1- Um item se relaciona com o outro.

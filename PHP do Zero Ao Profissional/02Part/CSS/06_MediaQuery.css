@@ -1,0 +1,23 @@
+body{
+	margin: 0;
+
+}
+
+.teste{
+	width: 600px;
+	height: 300px;
+	background-color: red;
+}
+
+@media only screen and (min-width:200px) and(max-width:600px){/*orientation:landscape) quando o celular ficar deitado o conceito é aplicado)*/;
+	.teste{
+		width: 200px;
+	}
+}
+
+/*@media only screen and (max-width:500px){
+	.teste{-----------DEIXANDO RESPONSIVO
+		background-color: green;
+	}
+}
+*/

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Formulario</title>
+</head>
+<body bgcolor="#66CCFF">
+ TESTE
+ <dl>
+ 	<dt><font size="6">Video Aulas</font></dt>
+ 	<dd>Java</dd>
+ 	<dd>Games</dd>
+ 	<dt><font size="+2">Textos</font></dt>
+ 	<dd><font face="Arial">Analise de Sistemas</font></dd>
+ 	<dd><font face="Verdana">Java WEB</font></dd>
+ 	<dd><font face="Times New Roman" color="#FFF">Java WEB</font></dd>
+</dl>
+
+<table border="1">
+	<tr bgcolor="#FFFF00"><!-- TR: inicio de uma linha -->
+		<td>Nome do Cliente</td>
+		<td>Endereço do cliente</td>
+		<td>Telefone: </td>
+	</tr>
+		<tr bgcolor="RED"><!-- TR: inicio de uma linha -->
+		<td>William</td>
+		<td>Dr. Guilherme Ellis</td>
+		<td>2222222</td>
+	</tr>
+</table>
+<br>
+<form name="Cadastro" method="post" action="">
+	<strong>Codigo: </strong> 
+	<input type="text" name="codigo" id="codigo" size="15">
+	<br>
+	<strong>Nome: </strong> 
+	<input type="text" name="nome" id="nome" size="25">
+	<br>
+	<strong>Senha: </strong> 
+	<input type="password" name="senha" id="senha" size="25">
+	<br>Escolha as videoaulas que você quer comprar: <br>
+	<input type="checkbox" name="cursos" id="cursos" value="Java WEB" >Java Web
+	<br>
+	<input type="checkbox" name="cursos" id="cursos" value="Games" >Games
+	<br>
+	<input type="checkbox" name="cursos" id="cursos" value="Delphi" >Delphi
+	<br>
+	<input type="checkbox" name="cursos" id="cursos" value="html" >html
+	<br><br>Qual o curso que você mais gostou<br>
+	<input type="radio" name="escolha" id="escolha" value="java">Java
+	<br>
+	<input type="radio" name="escolha" id="escolha" value="java">Delphi
+	<br>
+	<input type="radio" name="escolha" id="escolha" value="java">Html
+	<br>
+	<input type="radio" name="escolha" id="escolha" value="java">Games
+	<br>
+	<br>Qual das linguagens abaixo não é multiplataforma<br><!-- Selecionar apenas um item -->
+	<select name="multiplataforma">
+		<option value="Java">Java</option><br>
+		<option value="Delphi">Delphi</option><br>
+		<option value="Delphi">PHP</option><br>
+	</select>
+	<br>
+	<strong>Observações do Cliente:</strong><br>
+	<textarea name="obs" id="obs" cols="40" rows="10" ></textarea>
+	<strong>Gravar</strong><br>
+	<input name="gravar" id="gravar" type ="submit">
+	<br><br>
+	<strong>Limpar</strong><br>
+	<input name="limpar" id="limpar" type ="reset"><!-- limpar os campos -->
+	<br>
+</form>
+</body>
+</html>

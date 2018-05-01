@@ -1,0 +1,119 @@
+body{
+	margin: 0;
+}
+
+nav{
+	margin-top: 20px;
+}
+.navRight{
+	width: 60%;
+	height: 28px;
+	float: left;
+
+}
+
+.navRight img{
+	padding-top: 22px;
+	margin-left: 124px;
+}
+
+.navLeft{
+		width: 60%;
+		height: 28px;
+		float: right;
+		text-align: right;/*alinhar texto a direita*/
+	}
+
+.navLeft ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+
+}
+
+.navLeft li{
+	height: 30px;
+	line-height: 30px; 
+	float:left;
+	margin-right: 25px;
+
+}
+section{
+}
+.imagemSection h1{
+position: absolute;/*coloca o conteudo na posição que quiser, no caso dentro
+                    da imagem */
+top: 145px;
+margin-left: 20px;
+font-size: 58px;
+color: #5F9EA0	;
+}
+a{
+	text-decoration: none;
+		color: #1E90FF;
+}
+
+.imagemSection p{
+	position: absolute;
+	top: 220px;
+	margin-left: 10px;
+	font-size: 38px;
+	color: #1E90FF;
+	width: 600px;
+}
+
+
+.imagemSection img{
+margin-top: 20px;
+width: 1366px;
+height: 400px;
+}
+
+article{
+	background-color: #4169E1;
+	width: 1366px;
+	height: 180px;
+}
+
+.especialidadesEsquerda ul{
+	position:absolute;
+	margin-left: 150px;
+	background-color: #1E90FF;
+	width: 242px;
+	border-radius: 32px;
+
+}
+
+.especialidadesCentro ul{
+	position:absolute;
+	margin-left: 530px;
+	background-color: #1E90FF;
+	width: 242px;
+	border-radius: 32px;
+}
+
+.especialidadesDireita ul{
+	position:absolute;
+	margin-left: 920px;
+	background-color: #1E90FF;
+	width: 242px;
+	border-radius: 32px;
+}
+.b{
+	margin-top: 3px;
+	background-color: #4169E1;
+	border-radius: 4px;
+	font-size: 18px;
+	color: white;
+}
+
+footer{
+	background-color: #2F4F4F;
+	width: 1366px;
+	height: 60px;
+	color: white;
+	font-size: 22px;
+	padding: 2px;
+	padding-left: 350px;
+}
+

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Exemplos</title>
+    <style>
+        #main{
+            width: 250px;
+            margin: 0 auto;
+        }
+
+        article {
+            width: 100px;
+            height: 100px;
+            background-color: #fdfdeb;
+            border: 1px solid #ddfdfc;
+            display: inline-block;
+            /*color: #fdfdeb;*/
+            line-height: 100px;
+            margin: 5px;
+            cursor: pointer;
+        }
+
+        article:hover{
+            background-color: #f0cfb2;
+            color: magenta;
+        }
+
+        /*elemento:active – elemento clicado*/
+        article:active{
+            background-color: #ff0e0e;
+            color: yellow;
+        }
+
+        /*elemento:focus – ativado quando acionamos o elemento pelo teclado (tab) */
+
+        article:focus{
+            background-color: blue;
+            color: green;
+        }
+    </style>
+</head>
+<body>
+    <section id="main">
+        <article tabindex="1">Olá mundo!!!</article>
+        <article tabindex="2">&nbsp;</article>
+        <article>&nbsp;</article>
+        <article>&nbsp;</article>
+    </section>
+</body>
+</html>

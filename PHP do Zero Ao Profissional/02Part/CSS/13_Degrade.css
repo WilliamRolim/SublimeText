@@ -1,0 +1,15 @@
+body{
+	margin: 0;
+}
+
+.exemplo{
+	width: 500px;
+	height: 200px;
+	background:#330000;/*padronizando caso o navegador não ter suporte*/
+	/*inserindo um gradiente*/
+	background:linear-gradient(-90deg, white, blue);/*direção, primeira cor, segunda cor*/
+	/*preevinir que versões anteriores suportem
+	background: -moz-linear-gradient(white,blue,red);
+	background: -o-linear-gradient(white,blue,red);
+	background: -webkit-linear-gradient(white,blue,red);*/
+}

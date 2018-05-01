@@ -1,0 +1,16 @@
+.testar{
+	width: 300px;
+	height: 200px;
+	background-color: #9ACD32;
+
+}
+
+.testar2{
+	width: 300px;
+	height: 200px;
+	background-color: #800000;
+	position: absolute;
+	top:0;
+	right: 0;
+
+}

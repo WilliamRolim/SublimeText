@@ -1,0 +1,70 @@
+repositorio: projeto dentro do git
+
+Versão do git no computador
+git --version
+
+Definindo o nome do nosso usuario no git
+
+ git config --global user.name "William Rolim"
+
+Definindo email no git hub
+
+git config --global user.email "williamrolimads@gmail.com"
+
+Visualizar o nome cadastrado
+git config --global user.name
+
+Visualizar o email cadastrado
+git config --global user.email
+Qual editor que estou usando
+git config --global core.editor sub  (completa a sentença utilizando o compilador ao qual trabalha)
+
+Visualizar todas as informações cadastradas no git
+git config --list
+
+Inicializando o repositorio
+git init
+
+Branch, README e Commit
+Branch: Versões diferentes do meu sistema
+Master - versão principal do meu sistema
+
+Commit: Fazer alterção, criar arquivos novos, modificando arquivos
+dica comentar as alterações do commit (breve e explicativo). Ex: alterado login que mexe com cookie
+
+Untraked : Não está monitorando os arquivos, precisa adicionar ao monitoramento do git
+adicionando arquivos (Um por um)
+git add (nome do arquivo)
+adicionando Todos os arquivos que foram modificados e inseridos (untraked = monitorados)
+git add -A
+
+Fazendo alterção no arquivo e enviando via commmit
+git commit -m "Primeiro Commit"(aspas é exemplo)
+
+Adicionando todos os arquivos modificados e alteração no arquivo enviando via commit
+git commit -am "Digite aqui o que foi mudado"
+
+Historico das coisas que foram feitas(LogDeCommits)
+Lista de todos os commits (alterações do sistema) que foram feitas naquele branch(versões diferentes do sistema)
+git -log
+
+Mostrar status das mudanças que foram feitas
+git status
+
+obs: enquanto eu não der commit os arquivos só estarão disponiveis no meu computador. 
+
+Saber qual Branch que estamos( (HEAD -> master)
+git branch
+Revertendo modificações para outra data.
+git reset bb00c9210489d733b3e01d11be2b28759e4015bd (copiar o codigo inteiro ou apenas os 7 primeiros digitos)
+get reset 
+O Mixed (Default) reseta inclusive os arquivos, mas mantém a versão atual para você poder voltar para ela se quiser.
+
+Git reset -solid
+volta para as atualizações do primeiro, porém adiciona o anterior tbém nesse mesmo arquivo não comitadas
+get reset --soft
+Realiza as alerações no git porém, os arquivos permanecem na sua maquina local (localhost) sem realizar alterações
+Git reset -hard
+todas as atualizações são descartadas deixando somente o arquivo original
+
+

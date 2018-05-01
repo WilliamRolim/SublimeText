@@ -1,0 +1,36 @@
+<nav><!-- --><!--Tag importante para cegos e surdos Os menus principais da pagina -->
+<footer><!--Quem criou, Data de criação, ano atual, links de politicas de privacidade (termos de uso) -->
+<!-- -->
+Media Query = Designer responsivo
+/*orientation:landscape) quando o celular ficar deitado o conceito é aplicado)*/
+viewport: função que responsavel para que a responvilidade aconteça
+user-scalable=no: Significa que o usuario não vai poder dar zoom no mobile
+content="width=device-width ->Largura vai ser igual a largura do dispositivo
+Canvas:Basicamente é um quadro em branco, para fazer o quer vc quiser(desenhar qualquer tipo de animação)
+
+	transition: all 1s linear;/*controla o tempo de transição em qualquer coisa que eu tiver na minha tela*/
+
+Webkit: uma magina (engine) responsavel por desenhar o html e css na tela, cada navegador tem uma maquina dessas.
+
+Webkit e navagadores:
+
+		<li>IE= Trident</li>
+		<li>Edge = EdgeHTML</li>
+		<li>FireFox = Gecko</li>
+		<li>Opera = Webkit</li>
+		<li>Safari = Webkit</li>
+		<li>Chrome = Webkit (conhecido como blink(webkit melhorada))</li>
+
+WordWrap
+word-wrap: break-word;/*realiza quebra de linha automatico, respeitando o limite dos caracteres dentro de uma div*/
+
+Por padrão o html coloca uma margem na tag body
+
+line-height: 40px;/*Altura da linha: para alinhar a linha no menu*/
+Inline-block é a junção dos comportamentos inline (ex.:ocupar apenas o espaço do conteúdo, não quebrar linha) e block (ex.: dimensões configuráveis) em um único elemento HTML
+
+	overflow:hidden;/*Qualquer coisa que saia dessa area da div definida será cortada */
+	overflow: scroll;/*Aparece barra de rolagem para visualizar conteudo da div */
+
+flexbox: forma diferente de organizar a estrutura do meu layout
+

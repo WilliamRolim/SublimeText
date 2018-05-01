@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Portal</title>
+	<meta charset="utf-8">
+	<meta id="viewport" name="viewport" content="width=device-width, user-scalable=no">
+	<link rel="stylesheet" type="text/css" href="../CSS/20_MontandoPortal.css">
+	<script type="text/javascript" src="../JS/20_MontandoPortal.js"></script>
+</head>
+<body>
+	<div class="topo">
+		<div class="topoInt">
+
+
+			<div class="topoLeft"> <!-- para criar menu geralmente usa-se lista não ordenada ul -->
+				<ul>
+					<!-- Ordem: Da esquerda para direita - sucessivamente -->
+					<li><a href="./" class="ativo">Home</a></li>
+					<li><a href="quem-somos">Quem Somos</a></li>
+					<li><a href="anuncie-aqui">Anuncie Aqui</a></li>
+					<li><a href="contato">Contato</a></li>
+				</ul>
+			</div>
+
+			<div class="topoRight">
+				 <!-- Ordem: Da direita para esquerda - sucessivamente -->
+				<input type="image" src="../Imagens/lupa_branca2.png" border="0" width="26" height="26">
+				<input type="text" name="busca" placeholder="Busca..." class="topoBusca">
+				<a href=""><img src="../Imagens/rss3.png" border="0" width="26" height="26"></a>
+				<a href=""><img src="../Imagens/google_plus.png" border="0" width="26" height="26"></a>
+				<a href=""><img src="../Imagens/facebook.png" border="0" width="26" height="26"></a>
+				<a href=""><img src="../Imagens/Twitter2.png" border="0" width="26" height="26"></a>
+				<a href=""><img src="../Imagens/youtube.png" border="0" width="26" height="26"></a>
+			</div>
+		</div>
+	</div>
+
+	<div class="topo2">
+		<div class="topo2Int">
+			<div class="logo">
+				<img src="../Imagens/mega_portal2.jpg" border="0" width="250">
+			</div>
+			<div class="banner">
+				
+			</div>
+		</div>		
+	</div>
+
+	<div class="menu">
+		<div class="menuInt">
+			<img src="../Imagens/menu.png" border="0" width="40" height="40" class="menuMobile" onclick="toggleMenu()">
+			<ul id="menu">
+				<!-- SubMenu deve ficar dentro do li -->
+				<li><a href="./" class="ativo">Home</a></li>
+				<li><a href="./" class="ativo">Economia</a></li>
+				<li>
+					<a href="./" class="ativo">Entreterimento</a>
+						<img src="../Imagens/setinha2.png" border="0" width="10">
+						<div class="subMenu">
+							<a href="./"><div class="subMenuItem">SubMenu 1</div></a>
+							<a href="./"><div class="subMenuItem">SubMenu 2</div></a>
+							<a href="./"><div class="subMenuItem">SubMenu 3</div></a>
+							<a href="./"><div class="subMenuItem">SubMenu 4</div></a>
+							<a href="./"><div class="subMenuItem">SubMenu 5</div></a>
+						</div>
+				</li>
+				<li>
+					<a href="./" class="ativo">Esportes</a>
+						<img src="../Imagens/setinha2.png" border="0" width="10">
+						<div class="subMenu">
+							<a href="./"><div class="subMenuItem">SubMenu 1</div></a>
+							<a href="./"><div class="subMenuItem">SubMenu 2</div></a>
+							<a href="./"><div class="subMenuItem">SubMenu 3</div></a>
+						</div>
+				</li>
+				<li><a href="./" class="ativo">Geral</a></li>
+				<li>
+					<a href="./" class="ativo">Noticias</a>
+						<img src="../Imagens/setinha2.png" border="0" width="10">
+						<div class="subMenu">
+							<a href="./"><div class="subMenuItem">SubMenu 1</div></a>
+							<a href="./"><div class="subMenuItem">SubMenu 2</div></a>
+							<a href="./"><div class="subMenuItem">SubMenu 3</div></a>
+							<a href="./"><div class="subMenuItem">SubMenu 4</div></a>
+						</div>
+				</li>
+				<li><a href="./" class="ativo">Policia</a></li>
+				<li><a href="./" class="ativo">Videos</a></li>
+			</ul>
+		</div>
+	</div>
+
+	<div class="ultimasNoticias">
+		<div class="ultimasNoticiasInt">
+			<div class="ultimasNoticiasArea">
+				<div class="ultimasNoticiasTitulo">
+					ÚLTIMAS NOTICIAS
+				</div>
+				<div class="ultimasNoticiasSubtitulo">
+					Criador da internet teme a perda de todas as nossas memórias digitais no futuro
+				</div>	
+			</div>
+			
+		</div>
+	</div>
+
+	<div class="container">
+		<div class="containerInt">
+			<div class="leftSide">
+				<div class="slideshow" id="slideshow">
+					<div class="slide_bolinhas">
+						<div class="bolinhas" onclick="mudarSlide(0)"> </div>
+						<div class="bolinhas" onclick="mudarSlide(1)"></div>
+						<div class="bolinhas" onclick="mudarSlide(2)"></div>
+						<div class="bolinhas" onclick="mudarSlide(3)"></div>
+					</div>
+					<div class="slideshowArea"><!-- responsavel por deslizar a imagem esq e dir -->
+						<div class="slide" style="background: url(../Imagens/teste.jpg);">	<!--não são as noticias q andam, só a area q anda-->
+								<div class="slideinfo">
+									<div class="slideinfo_titulo">
+										Titulo de teste 1
+									</div>							
+									<div class="slideinfo_subtitulo">
+										Subtitulo de teste
+									</div>
+								</div>
+						</div>
+						<div class="slide" style="background-image: url(../Imagens/quadrilha.jpg);">
+								<div class="slideinfo">
+									<div class="slideinfo_titulo">
+										Titulo de teste 2
+									</div>							
+									<div class="slideinfo_subtitulo">
+										Subtitulo de teste 2
+									</div>
+								</div>
+						</div>
+						<div class="slide" style="background-image: url(../Imagens/morena.jpg);">
+							
+								<div class="slideinfo">
+									<div class="slideinfo_titulo">
+										Titulo de teste 3
+									</div>							
+									<div class="slideinfo_subtitulo">
+										Subtitulo de teste 4
+									</div>
+								</div>
+						</div>						
+						<div class="slide" style="background-image: url(../Imagens/BarackObama.jpg)";>
+								<div class="slideinfo">
+									<div class="slideinfo_titulo">
+										Titulo de teste 4
+									</div>							
+									<div class="slideinfo_subtitulo">
+										Subtitulo de teste 4
+									</div>
+								</div>
+						</div>
+
+					</div>
+				</div>
+				<div class="widget">
+					<div class="widgetTitulo">
+						NOTÍCIAS
+					</div>
+					<div class="widgetConteudo">
+						<div class="noticiasAreas1">
+							<div class="newsItem newsBig">
+								<div class="newsImage">
+									<img src="../Imagens/quadrilha.jpg" border="0" width="80" height="80">
+								</div>
+								<div class="newsTitle">
+									Polícia Militar prende quadrilha com drogas e metralhadora na zona norte de Teresina
+								</div>
+								<div class="newsSubtitle">
+									300 comentarios
+								</div>
+							</div>
+						</div>
+						<div class="noticiasAreas2">
+							<a href="www.google.com">
+							<div class="newsItem">
+								<div class="newsImage">
+									<img src="../Imagens/jogo.jpg" border="0" width="80" height="80">
+								</div>
+								<div class="newsTitle">
+									Em retorno ao Mineirão, Cruzeiro empata por 1x1 com Caldense no campeonato Mineiro
+								</div>
+								<div class="newsSubtitle">
+									500 comentarios
+								</div>
+							</div>
+							</a>
+							<div class="newsItem">
+								<div class="newsImage">
+									<img src="../Imagens/morena.jpg" border="0" width="80" height="80">
+								</div>
+								<div class="newsTitle">
+								 Pessoas como ela são alicerces para que o melhor da moda não morra
+								</div>
+								<div class="newsSubtitle">
+									500 comentarios
+								</div>
+							</div>
+							<div class="newsItem">
+								<div class="newsImage">
+									<img src="../Imagens/teste.jpg" border="0" width="80" height="80">
+								</div>
+								<div class="newsTitle">
+									Criador da internet teme a perda de todas as nossas memórias digitais no futuro
+								</div>
+								<div class="newsSubtitle">
+									500 comentarios
+								</div>
+							</div>
+							<div class="newsItem">
+								<div class="newsImage">
+									<img src="../Imagens/luta.jpg" border="0" width="80" height="80">
+								</div>
+								<div class="newsTitle">
+									Vale tudo para conquistar o titulo?
+								</div>
+								<div class="newsSubtitle">
+									600 comentarios
+								</div>
+							</div>
+						</div>
+					</div>
+					<div style="clear: both"></div>
+				</div>
+			</div>
+
+			<div class="rightSide">
+				<div class="widget">
+					<div class="widgetTitulo">
+						SOCIAL
+					</div>
+					<div class="widgetConteudo">
+						<a href=""><img src="../Imagens/rss3.png" border="0" width="26" height="26"></a>
+						<a href=""><img src="../Imagens/google_plus.png" border="0" width="26" height="26"></a>
+						<a href=""><img src="../Imagens/facebook.png" border="0" width="26" height="26"></a>
+						<a href=""><img src="../Imagens/Twitter2.png" border="0" width="26" height="26"></a>
+						<a href=""><img src="../Imagens/youtube.png" border="0" width="26" height="26"></a>
+					</div>
+				</div>
+
+				<div class="widget">
+					<div class="widgetTitulo">
+						ULTÍMAS NOTICÍAS
+					</div>
+					<div class="widgetConteudo">
+						<div class="noticiasItens">
+						<a href="./">Polícia Militar prende quadrilha com drogas e metralhadora na zona norte de Teresina</a>
+						</div>
+						<div class="noticiasItens">
+						<a href="./">Pessoas como ela são alicerces para que o melhor da moda não morra</a>
+						</div>
+						<div class="noticiasItens">
+						<a href="./">Barack Obama é flagrado tirando foto com "pau de selfie</a>
+						</div>
+						<div class="noticiasItens">
+						<a href="./">Polícia Militar prende quadrilha com drogas e metralhadora na zona norte de Teresina</a>
+						</div>
+					</div>
+				</div>
+
+				<div class="widget">
+					<div class="widgetTitulo">
+						PUBLICIDADE
+					</div>
+					<div class="widgetConteudo">
+						<img src="../Imagens/girl.jpg" border="0" width="275"/>
+					</div>
+				</div>
+				<div class="widget">
+					<div class="widgetTitulo">
+						ENCONTRE-NOS NO FACEBOOK
+					</div>
+					<div class="widgetConteudo">
+						<iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Ffacebook&tabs&width=340&height=154&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="272" height="154" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+					</div>
+				</div>
+
+			</div>
+
+		</div>
+	</div>
+</body>
+</html>

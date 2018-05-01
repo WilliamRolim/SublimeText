@@ -1,0 +1,56 @@
+SublimeText
+<!-- utf-8 padrão de caracter-->
+<html> chamado de elemento anscestral
+stylesheet folha de estilo
+href: hyper 
+javascript sempre no final, para não deixar a pagina lenta
+ctrl+ a + d; Edentar codigo no sublime
+ctrl + n = criar um arquivo novo
+ctrl + s = salvar
+ctrl + seta para cima ou par abaixo = deslizar linha comando
+<section>Sessão aonde o conteudo é importante
+<footer>Rodapé
+cores  flats.
+ctrl + shift + j = abrir na aba console o navegador -> importante para debugar //seta para cima te da todos os comandos
+ctrt + shiff + d = duplicar a linha (replicar a linha que selecionou (copiou));
+<form method = Get = envia pela url
+<form method = Post = envia a informação mas a informação não aparece
+<form method = Post action = para onde vai, aqui que entramos em contato com outra linguagem do servidor
+required = deixa o campo obrigatorio
+placeholder = informação para o usuario dentro do campo
+segurar ctrl e clicar em cima do campo replica o conteudo para todos
+<label for=faz sempre referencia ao id
+name = usado para envio do formulario
+name faz o grupo de radio buttons colocar nomes diferentes no name em radios button
+checked = já deixa o radiobutton ou checkbox selecionado
+meter = bateria usado mais para smarthphones
+progress interessante para envio de arquivos
+step = pular de número, ex step="2" pula de 2 em 2
+selected seleciona opção desejada em um selected
+hidden = campo oculto usado geralmente em API
+API = Aplication program interface
+password = não usar o atributo value na senha, pois hacker ve
+list = semelhante ao form
+autofocus = atributo que já deixa pré selecionado em determinado campus
+tabindex = conforme pressiono a tecla tab ele vai selecionando
+disable = desabilitar o campo
+readonly = somente leitura do campus ideal para contratos
+src = origem do arquivo que preciso
+alt = caso a imagem não conseguir carregar traz o texto alternativo para gente
+
+classes do bootstrap:
+pull-right empurra automaticamene para direita
+jquery=
+
+container: recurso para centralizar conteudo no bootstrap 
+
+sprit: utilizado para economizar espaço, se todas as imagens de icones fazem parte da mesma imagem, o carregamento da 
+pagina será mais rapido
+
+
+seletores do webkit: são seletores avançados é para acionar o recurso dentro do seletor do navegador, que oficialmente não
+está disponivel
+
+CDN: Centro de distribuição de arquivos publicos, sigla sigfnicada: rede de distribuição de conteudo containt delivery network
+
+call to action = chamada a ação

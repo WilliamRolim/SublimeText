@@ -1,0 +1,28 @@
+DIV: Uma div por padrão fica uma abaixo da outra
+FLOAT: LEFT A divi fica encostada a esquerda (flutuando a esquerda)
+SPAN: é PARECIDO com a div porém, não possui o conceito de largura de altura, ela se adapta para o proprio texto, ao
+proprio conteudo que está dentro dele.
+Fazer um circulo no html, fazer a borda solida, e atravez do border-radius ir arredondando colocando a metade da largura
+font family: colocar varias fontes caso não tiver no Sistema operacional ele pega as restantes
+text-align: alinhar o texto posição de pagina ou da div OBS: Text-align não alinha elementos inteiros como DIV somente textos
+margin:auto; /* as margens da minha div serão automaticas - iguala  com o da esquerda e direita */
+margin-top: 20px;/* Distancia do Topo da margem  */
+
+Elemento flutuante: Apesar da estrutura do site. O elemento ficará por cima do site
+
+<div class="texto flutuante">Elementos flutuantes</div><!-- colocando 2 classes na mesma div -->
+
+position absolute: coloco o elemento na posição que eu quero que fica ex popups usam elementos flutuantes
+
+position fixed: fixa o elemento de forma que a barra de rolagem pode ser manuseada e ele não sofrerá mudanças ficando fixo.
+
+display none: Como o objeto vai aparecer na tela ou se o objeto vai aparecer na tela. Ex:Usado em sistemas que fazem parte
+da interação atual
+ex: quando vc está no facebook e vc fecha aquelas janelas de chat abertas, quando fecho, na verdade não está fechando
+estou dando um display none, ou seja ela está presente no html e não tem exibição na tela.
+
+display inline: a forma de exibição desse elemento no meio da linha. Ou seja se adapta a linha do texto até mesmo
+desprezando algumas propriedades coladas, altura e largura não funcionam mais.
+continuar o fluxo do texto
+
+display: inline-block: Mantem as propriedades compostas (altura e largura)porém coloca um elemento do lado do outro

@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="C:/Users/willi/Documents/SublimeText/Bootstrap/css/bootstrap.min.css">
+	<title>Teste</title>
+</head>
+<body>
+	<form method="Post" action="01form.php">
+		<div class="form-group">
+			<label for="name">Nome:</label><!-- label descrição do campo -->
+			<input type="text" name="nome" id="nome" class="form-control" placeholder="Digite seu nome" required autofocus tabindex="1" disabled>
+		</div class="form-group">		
+		<div>
+			<label for="email">Email:</label><!-- label descrição do campo -->
+			<input type="text" name="email" id="email" class="form-control" placeholder="seu@email.com" required tabindex="2" readonly>
+		</div>
+		<div>
+			<label for="nasciento">Nasciento:</label><!-- label descrição do campo -->
+			<input type="date" name="nasciento" id="nasciento" class="form-control" required min=2018-01-17 max=2030-12-17 tabindex="3">
+		</div>
+		<div>
+			<label>Sexo:</label><!-- label descrição do campo -->
+			<br>
+			<label for="masculino">Masculino</label>			
+			<input type="radio" name="sexo" id="masculino">
+			<br>
+			<label for="feminino">Feminino</label>
+			<input type="radio" name="sexo" id="feminino">
+		</div>
+		<div>
+			<label for="contrato">Lí e aceito o contrato:</label>
+			<input type="checkbox" name="contrato" id="contrato" checked>
+		</div>
+		<div>
+			<label for="volume">Volume</label>
+			<input type="range" name="volume" id="volume" min="0" value="5" max="10">
+		</div>
+		<div class="form-group">
+			<label for="bateria">Bateria</label>
+			<meter name= bateria min="0" max="100" low="15" value="50">50</meter>
+		</div>
+        <div class="form-group">
+			<label for="progress">Imagem</label>
+			<progress name= bateria min="0" max="100"  value="30">50</progress>
+		</div>
+		<div>
+			<label for="ano">Ano de fabricação:</label><!-- label descrição do campo -->
+			<input type="number" name="ano" id="ano" class="form-control" min="2018" max="2040" step="2" value="2018"  required>
+		</div>
+		<div>
+			<label for="cor">Cores:</label><!-- label descrição do campo -->
+			<input type="color" name="cor" id="cor" class="form-control" >
+		</div>
+		<div>
+			<label for="site">URL></label><!-- label descrição do campo -->
+			<input type="url" name="site" id="site" class="form-control" >
+		</div>
+		<div>
+			<label for="buscar">Buscar:</label><!-- label descrição do campo -->
+			<input type="search" name="buscar" id="buscar" class="form-control" >
+		</div>
+		<div>
+			<label for="comentario">Comentarios:</label><!-- label descrição do campo -->
+			<textarea name="comentario" id="comentario" cols="60" rows="10" tabindex="4"></textarea>
+		</div>
+		<div class="form-group">
+		<label for="estados">Estados: </label>
+	<select name="estados" id="estados" multiple size="4">
+		<option value="sp" >SP</option>
+		<option value="rj">RJ</option>
+		<option value="mg" selected>MG</option>
+		<option value="rs">RS</option>
+		<option value="pr">PR</option>
+		<option value="mt">MT</option>
+		<option value="ac">AC</option>
+	</select>
+		</div class="form-group">
+		<label for="estados2" id="estados2">Estados 2</label>
+		<select name="estados2" id="estados" multiple size="4">
+		<optgroup label="Sudeste"></optgroup>
+			<option value="sp" >SP</option>
+			<option value="rj">RJ</option>
+			<option value="mg" selected>MG</option>
+		<optgroup label="Teste"></optgroup>
+			<option value="rs">RS</option>
+			<option value="pr">PR</option>
+			<option value="mt">MT</option>
+			<option value="ac">AC</option>
+	</select>
+		</div>
+
+		<div>
+			<input type="hidden" name="oculto" id="oculto" value="1">
+		</div>
+
+		<div>
+			<label for="senha">Senha:</label><!-- label descrição do campo -->
+			<input type="password" name="senha" id="senha" class="form-control" >
+		</div>
+		<div>
+			<label for="mes">Mes:</label><!-- label descrição do campo -->
+			<input type="month" name="mes" id="mes" class="form-control" >
+		</div>
+		<div>
+			<label for="semana">Semana:</label><!-- label descrição do campo -->
+			<input type="week" name="semana" id="semana" class="form-control" >
+		</div>
+		<div>
+			<label for="hora">Hora:</label><!-- label descrição do campo -->
+			<input type="time" name="hora" id="hora" class="form-control" >
+		</div>
+		<div class="form-group">
+		<label >Navegadores: </label>
+		<input type="text" list="navegadores">
+	<datalist id="navegadores">
+		<option value="Chrome" >
+		<option value="Firefox">
+		<option value="Safari">
+		<option value="Edge">
+	</datalist>
+	</select>
+
+		<div>	
+			<button type="subtmit" class="btn btn-info">Cadastrar</button>
+		</div>
+	</form>
+
+</body>
+</html>

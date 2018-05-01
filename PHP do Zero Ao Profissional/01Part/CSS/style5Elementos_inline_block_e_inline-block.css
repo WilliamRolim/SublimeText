@@ -1,0 +1,19 @@
+body{
+	background:#191970;
+	margin: 0;
+}
+
+.primeiraDivText{
+	background-color: #DCDCDC;
+	width: 300px;
+	height: 100px;
+	font-family: Bookman, URW Bookman L;
+	font-size: 20px;
+	text-align: center;
+	color: #FFD700;
+	margin-bottom: 10px;
+	text-decoration: underline;
+
+	display: inline-block; /*display fica bloqueado na tela para sempre aparecer */
+
+}

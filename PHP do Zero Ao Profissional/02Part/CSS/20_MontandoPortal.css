@@ -1,0 +1,566 @@
+body{
+	margin: 0;
+	font-family: Arial;
+	font-size: 12px;
+}
+
+.topo{
+	height: 30px;
+	background-color: #333;
+	color: #FFF;
+}
+
+.topoInt{
+	width: 100%;
+	max-width: 1040px;
+	height: 30px;
+	margin:auto;
+}
+
+.topoLeft{
+	width: 50%;
+	height: 28px;
+	float: left;
+}
+
+.topoRight{
+	width: 50%
+	height: 28px;/*Diminuir 2 pixels na altura para compensar e ficar os 30 */
+	float: right;
+	text-align: right;
+	margin-top: 2px;
+}
+
+.topoLeft ul{/*tirar os espaçamentos padrões que a tag ul impõe */
+	margin: 0;
+	padding: 0;
+	list-style: none;/*remover qualquer estilização para lista */
+}
+
+.topoLeft li{
+	height: 30px;
+	line-height: 30px;/*centralizar verticalmente um conteudo */
+	float: left;
+	margin-left: 8px;
+	margin-right: 8px;
+}
+
+.topoLeft li a{
+	text-decoration: none;/* Sublinhado sai do link*/
+	color: #FFF;
+
+}
+
+.topoLeft li .ativo{
+	color: blue;
+}
+
+.topoBusca{
+	width: 110px;
+	height: 26px;
+	outline: 0;/* Tira a borda azul ao redor do campo */
+}
+
+.topoRight{
+	float: right;
+}
+
+.topoRight input {
+	float: right;
+}
+
+.topoRight img {
+	margin-right: 3px;
+}
+
+.topo2{
+	height: 95px;
+	color: #000;
+}
+
+.topo2Int{
+	width: 100%;
+	max-width: 1040px;
+	height: 95px;
+	margin:auto;
+}
+
+.logo{
+	width: 230px;/* Atenção especial quando chegar no celular vai ficar visivel */
+	height: 90px;
+	float: left;
+	margin-top:28px;
+}
+
+.topo2 .banner{
+ 	width: 650px;
+ 	height: 80px;
+ 	float: right;
+ 	margin-top: 7px;/* para chegar no 7 - 95 da altura - 80 da altura do banner, soma 15 divide por 2 = 7,5 */
+ 	background-color:#B22222;
+}
+
+.menu{
+	height: 40px;
+	background-color: #B22222;
+}
+
+.menuInt{
+	width: 100%;
+	max-width: 1040px;
+	height: 40px;
+	margin:auto;
+}
+
+.menu ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.menu li{
+	float: left;/*Deixar os itens de menu um do lado do outro */
+	height: 40px;
+	line-height: 40px;/*Altura da linha: para alinhar a linha no menu*/
+	padding-left: 8px;
+	padding-right: 8px; 
+}
+
+.menu li:hover .subMenu{/*Aparecer o submenu ao passar o mouse em entreterimento*/
+	display: block;
+}
+
+.menu a{
+	text-decoration: none;
+	color: #FFF;
+}
+
+.subMenu{
+	width: 150px;
+ 	background-color:#B22222;
+	position: absolute;
+	display: none;
+}
+
+.subMenuItem{
+	height: 30px;
+	width: 140px;
+	line-height: 30px;
+	padding-left: 10px;
+
+}
+
+.subMenuItem:hover{
+	background-color: #FF4500;
+}
+
+.ultimasNoticias{
+	height: 40px;
+}
+
+.ultimasNoticiasInt{
+	width: 100%;
+	height: 40px;/*50 */
+	max-width: 1024px;
+	margin: auto;
+}
+
+.ultimasNoticiasArea{
+	height: 28px;
+	background-color: #FFF;
+	border: 1px solid #CCC;
+	/*Calculo para deixar no meio na altura 50 d0 height do ultimasNoticiasiNR
+	 - 30px (28 + as bordas) -> (50 - 30 )/2 = margin:top 10do height do ultimasNoticiasArea*/
+	margin-top: 10px;
+}
+
+.ultimasNoticiasTitulo{
+	background-color: #B22222;
+	color:#FFF;
+	height: 28px;
+	line-height: 28px;
+	display: inline-block;/*inline-block é a junção dos comportamentos inline 
+	(ex.:ocupar apenas o espaço do conteúdo, não quebrar linha) e block
+ 	(ex.: dimensões configuráveis) em um único elemento HTML*/
+ 	padding-left: 10px;
+ 	padding-right: 10px;
+ 	font-size: 16px;
+}
+
+.ultimasNoticiasSubtitulo{
+	color: #000;
+	height: 28px;
+	line-height: 28px;
+	display: inline-block;
+	padding-left: 5px;
+}
+
+.containerInt{
+	width: 100%;
+	max-width: 1040px;
+	margin: auto;
+}
+
+.leftSide{
+	width: 753px;/*1040 - 275 - 12 = 753*/
+	float: left;
+}
+
+.rightSide{
+	width: 275px;
+	min-height: 200px;/*altura minima apenas para visualizar*/
+	float: right;
+	margin-left: 12px;/*distancia da div de 12px*/
+}
+
+.widget{
+	border:1px solid #CCC;
+	background-color: #FFF;
+	margin-bottom:10px;/*distancia entre os widgets - (Se colocasse margem-top iria desconfigurar
+	o widget nesse caso*/
+}
+
+.widgetTitulo{
+	height: 30px;
+	line-height: 30px;
+	background-color: #DDD;
+	border-bottom: 1px solid #CCC;
+	padding-left: 5px;
+	font-size: 14px;
+}
+
+.widgetConteudo{
+	text-align: center;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+.noticiasItens{
+	font-size: 14px;
+	margin:0px 10px;/*(0 em cima e abaixo e 10 dos lados)*/
+	padding: 10px 0px;/*(10 em cima e abaixo e zero dos lados)*/
+	text-align: left;
+	border-bottom: 1px solid #CCC;
+
+}
+
+.noticiasItens a{
+	text-decoration: none;
+	color: black;
+}
+
+.slideshow{
+	height:335px;
+	background-color: #CCC;
+	overflow:hidden;/*Qualquer coisa que saia dessa area da div definida será cortada */
+	margin-bottom:20px;
+}
+/*Não posso estabelecer um valor de largura para o slideshow ele tem que ser dinamico, pois será responsivo*/
+.slideshowArea{
+	/*LARGURA PADRÃO X 4 (SLIDES) serão sufientes para um ficar do lado da outra*/
+	width: 100000px;
+	height: 335px;
+	background-color:#DDD;
+	transition: all 1s;/*css faz a transição das imagens a cada 1s*/
+
+}
+
+.slide{
+	height: 335px;
+	width: 750px;
+	float: left;/*vai fazer que essas divs (imagens) fiquem uma do lado da outra */
+	background-repeat: no-repeat; /*Não vai repetir o blackground*/
+	background-position: center;/*Posicionar a imagem no centro da area*/
+	background-size: cover;/*Aumentar a largura e altura da imagem proporcinalmente para que cubra
+	a area do slide*/
+}
+
+.slideinfo{
+	height:70px;
+	background-image:url('../Imagens/barra.png');/* ../ voltar uma pasta */
+	background-size: auto 70px; /*largura auto e altura 70px */
+	/*slideshow area tem 335 de altura -70 height do slide info = 265*/
+	margin-top: 265px;
+}
+
+.slideinfo_titulo {
+	font-size:20px;
+	color:#FFF;
+	padding-top:15px;
+	padding-left: 20px;
+}
+.slideinfo_subtitulo {
+	font-size:13px;
+	color:#FFF;
+	padding-left: 20px;
+}
+
+.slide_bolinhas{
+	position: absolute;/*pq está em cima do conteudo*/
+	width: 200px;
+	height: 20px;
+}
+
+.bolinhas{
+	width: 20px;
+	height: 20px;
+	float:left;/*uma do lado da outra*/
+	margin-right: 5px; /*margem do lado direito de 5 px (para não ficar coladas uma nas outras*/
+	cursor:pointer;/*aparecer a mãozinha*/
+	background-color: #CCC;
+	border-radius: 10px;/*transformar as bolinhas em ciruclo*/
+	border-color: red;
+}
+
+.noticiasAreas1{
+	width: 430px;
+	height: 420px;
+	float: left;
+}
+
+.noticiasAreas2{
+	width: 320px;
+	height: 420px;
+	float: left;
+}
+
+.newsItem{
+	text-align: left;
+	height: 88px;
+	margin-top: 7px;/*descolar 5px da div de cima */
+	margin-bottom: 7px;/*descolar 5px da div de baixo */
+}
+
+.newsImage{
+	width: 80px;
+	height: 80px;
+	border: 1px solid #CCC;
+	padding: 3px;
+	float: left;
+}
+
+.newsTitle{
+	float: left;
+	margin-left: 6px;/*distancia de margem de 6px da div anterior */
+	font-size: 16px;
+	width: 226px;
+	color: #000;
+}
+
+.newsSubtitle{
+	width: 226px;
+	font-size: 12px;
+	margin-left: 6px;
+	color: #999;
+	float: left;
+}
+
+.newsBig{
+	margin-left: 10px;
+}
+.newsBig .newsImage{
+	width: 384px;
+	height: 222px;
+}
+
+.newsBig .newsImage img{
+	width: 384px;
+	height: 222px;
+}
+
+.newsBig .newsTitle{
+	width: 384px;
+	font-size: 30px;
+}
+
+.menuMobile{
+	display: none;
+}
+
+@media only screen and (min-width:906px) and (max-width:1057px) {
+	.topoInt,
+	.topo2Int,
+	.menuInt,
+	.ultimasNoticiasInt,
+	.containerInt{
+		max-width: 890px;
+	}
+
+	#menu{
+		display: block !important;/*sobrescrever qualquer propriedade do display q estiver no nosso menu*/
+	}
+
+	.leftSide{
+		width: 600px;
+	}
+
+	.noticiasAreas1{
+		width: 278px;
+	}
+	.newsBig .newsImage{
+		width: 245px;
+	}
+
+	.newsBig .newsImage img{
+		width: 245px;
+	}
+
+	.newsBig .newsTitle{
+		width: 245px;
+		font-size: 25px;
+	}
+
+	.menuMobile{
+		display:none;
+	}
+}
+
+@media only screen and (min-width:783px) and (max-width:906px) {
+	.topoInt,
+	.topo2Int,
+	.menuInt,
+	.ultimasNoticiasInt,
+	.containerInt{
+		max-width: 768px;/*geralmente tablet tem esse tamanho maximo de 768*/
+	}
+
+	.topo2 .banner{  /*retirar o banner , pois ficará muita informação na tela*/
+		display: none;
+	}
+
+	.logo{
+		float: none;/*retirar o float do logo*/
+		margin:auto;/*posicionando no meio*/
+	}
+
+	#menu{
+		display: block !important;/*sobrescrever qualquer propriedade do display q estiver no nosso menu*/
+	}
+
+	.rightSide{
+		display: none;
+	}
+
+	.leftSide{
+		float: none;
+		margin: auto
+	}
+
+	.noticiasAreas1{
+		width: 446px;
+	}
+	.newsBig .newsImage{
+		width: 415px;
+	}
+
+	.newsBig .newsImage img{
+		width: 415px;
+	}
+
+	.newsBig .newsTitle{
+		width: 415px;
+		font-size: 25px;
+	}
+}
+
+@media only screen and (max-width:783px) {
+	.topoInt,
+	.topo2Int,
+	.menuInt,
+	.ultimasNoticiasInt,
+	.containerInt{
+		max-width: 320px;/*geralmente celular tem esse tamanho maximo de 320 de largura*/
+	}
+
+	.topo2 .banner{  /*retirar o banner , pois ficará muita informação na tela*/
+		display: none;
+	}
+
+	.topoLeft{
+		display: none;
+	}
+
+	.topoRight{
+		width: 100%;
+	}
+
+	.logo{
+		float: none;/*retirar o float do logo*/
+		margin:auto;/*posicionando no meio*/
+	}
+
+	.menuMobile{
+		display: block;
+	}
+
+	.menu ul{
+		position: absolute;
+		background-color:#B22222;
+		z-index: 10;/*subir , ficar em cima de todo mundo - retirar bolinhas*/
+		display: none;
+	}
+
+	.menu li{
+		float: none;
+		height: auto;
+	}
+
+	.menu li img{
+		display: none;
+	}
+
+	.subMenu{
+		position:static;
+		display: block;
+	}
+
+	.ultimasNoticias{
+		display: none;
+	}
+
+	.rightSide{
+		display: none;
+	}
+
+	.leftSide{
+		margin-top: 10px;
+		float: none;
+		margin: auto
+	}
+
+	.noticiasAreas1{
+		width: 320px;
+		height: auto;
+	}
+	.newsBig .newsImage{
+		width: 290px;
+	}
+
+	.newsBig .newsImage img{
+		width: 290px;
+	}
+
+	.newsBig .newsTitle{
+		width: 415px;
+		font-size: 25px;
+	}
+
+	.noticiasAreas2{
+		width: 300px;
+		margin: auto;
+		float: none;
+		clear: both;/*both tradução limpos*/
+		padding-top: 20px;
+	}
+
+	.noticiasItens{
+		clear: both;
+	}
+
+	.ultimasNoticiasTitulo{
+		width: 206px;
+	}
+
+	.ultimasNoticiasSubtitulo{
+		width: 206px;
+	}
+}

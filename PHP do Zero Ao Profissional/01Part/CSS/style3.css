@@ -1,0 +1,21 @@
+body{
+	margin: 0;
+}
+
+.texto{
+	width: 700px;
+	height: 200px;
+	background-color:#98FB98;
+	color:#FF7F50;
+	font-size: 20px;
+	font-family: verdana;
+	font-weight: bold;
+	text-align: center;
+	text-transform: uppercase;
+	text-decoration: underline;
+
+	margin:auto; /* as margens da minha div serão automaticas - iguala  com o da esquerda e direita */
+	margin-top: 20px;/* Distancia do Topo da margem  */
+	padding-top:10px;     /* Espaçamento dentro do elemento nesse caso a DIV */
+
+}

@@ -1,0 +1,24 @@
+/*criando nossos quadros de animação os nossos frames */
+@keyframes exemplo{
+/*Keyframes: Porcentagens que representam a duração do nosso codigo */
+	0% {background-color: red; top:0;left:0;}
+	25% {background-color: yellow; top:0;left:200;}
+	50% {background-color: blue; top:200;left:200}
+	75% {background-color: green; top:200;left:0}
+	100% {background-color: black; top:0;left:0;}
+}
+body{
+	margin: 0;
+}
+
+.exemplo{
+	width: 150px;
+	height: 150px;
+	background-color: green;
+	position: absolute;/*deixar o objeto flutuante */
+	/*aplicando a animação no nosso elemento*/
+	animation-name: exemplo;
+	animation-duration: 4s;
+	animation-delay: 2s;/*esperar 2 segundos para iniciar a animação*/
+	animation-iteration-count: infinite;/*repetir a animação 3 v*/
+}

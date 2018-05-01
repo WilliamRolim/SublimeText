@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>FlexBox Alinhamento</title>
+	<style type="text/css">
+		.container1{
+			display: flex;
+			height: 300px;
+			flex-direction: row;
+			justify-content: flex-start;/*-Alinhamento da esquerda para direita*/
+			background-color: #D2691E;
+		}
+
+			.container2{
+			display: flex;
+			height: 300px;
+			flex-direction: row;
+			justify-content: flex-end;/*-Alinhamento onde o flex acaba na direita*/
+			background-color: #D2691E;
+		}
+			.container3{
+			display: flex;
+			height: 300px;
+			flex-direction: row;
+			justify-content: space-around;/*-Vai alinhar os itens conforme o espaçamento entre eles seja igual*/
+			background-color: #D2691E;
+		}
+
+			.container4{
+			display: flex;
+			height: 300px;
+			flex-direction: row;
+			justify-content: space-between;/*Primeiro item colado no lado esquerda, segundo item colado do lado direito e outros no meio da tela*/
+			background-color: #D2691E;
+		}
+
+			.container5{
+			display: flex;
+			height: 300px;
+			flex-direction: row;
+			justify-content: flex-start;
+			align-items: center;
+			background-color: #D2691E;
+		}
+			.container6{
+			display: flex;
+			height: 300px;
+			flex-direction: row;
+			justify-content: flex-end;
+			align-items: center;
+			background-color: #D2691E;
+		}
+			.container7{
+			display: flex;
+			height: 300px;
+			flex-direction: row;
+			justify-content: flex-end;
+			align-items: flex-end;
+			background-color: #D2691E;
+		}
+
+
+
+		.container1 div,
+		.container2 div,
+		.container3 div,
+		.container4 div,
+		.container5 div,
+		.container6 div,
+		.container7 div{
+			width:100px;
+			height: 100px;
+			background-color: #DEB887;
+			margin: 10px;
+			padding: 10px;
+			font-size: 18px;
+		}
+	</style>
+</head>
+<body>
+	<div class="container1">
+			<div>1</div>
+			<div>2</div>
+			<div>3</div>
+	</div>
+		<div class="container2">
+			<div>1</div>
+			<div>2</div>
+			<div>3</div>
+	</div>
+	<div class="container3">
+		<div>1</div>
+		<div>2</div>
+		<div>3</div>
+	</div>
+		<div class="container4">
+			<div>1</div>
+			<div>2</div>
+			<div>3</div>
+		<div>4</div>
+	</div>
+		<div class="container5">
+			<div>1</div>
+			<div>2</div>
+			<div>3</div>
+		</div>
+		<div class="container6">
+			<div>1</div>
+			<div>2</div>
+			<div>3</div>
+		</div>
+		<div class="container7">
+			<div>1</div>
+			<div>2</div>
+			<div>3</div>
+		</div>
+		<div>
+		<h1>Justify's</h1>
+		<p>justify-content: center; -Conteúdo vai ser justificado no meio do meu container</p>
+		<p>justify-content: flex-start;/*-Alinhamento da esquerda para direita*/</p>
+		<p>justify-content: flex-end;/*-Alinhamento onde o flex acaba na direita*/</p>
+		<p>space-around:Vai alinhar os itens conforme o espaçamento entre eles seja igual - TOdos os espaçamentos são iguais</p>
+	</div>
+</body>
+</html>

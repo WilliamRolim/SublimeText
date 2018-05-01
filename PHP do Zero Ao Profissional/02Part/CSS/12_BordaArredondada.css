@@ -1,0 +1,23 @@
+body{
+	margin: 0;
+}
+
+input{
+	background-color: #FFFF99;
+	margin-left: 100px;
+	margin-top: 20px;
+	width:100px;
+	height:20px;
+	border-radius: 50px;
+	border: 1px solid #FF9900;
+}
+#teste {
+	background-color:#330066;
+	margin-left: 100px;
+	margin-top:100px;
+	width: 200px;
+	height: 200px;
+	/*border-radius: 100px;*/
+	border-top-left-radius: 10px;	/*Só a borda da esquerda é arredondada*/
+	border-bottom-right-radius: 10px;
+}

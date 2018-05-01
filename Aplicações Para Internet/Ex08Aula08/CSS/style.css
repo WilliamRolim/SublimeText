@@ -1,0 +1,59 @@
+body {
+  font: 600 14px/24px "Open Sans", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", Sans-Serif;
+  margin: 12px 0;
+  background-color: #6E7B8B;
+}
+
+section{
+  margin:140px 0 0 580px;
+}
+
+.shadow{
+  width: 150px;
+  height: 150px;
+  background-color: #000;
+  margin-bottom: 20px;
+}
+
+.shadow:hover
+{
+  box-shadow:
+  2px 2px 2px 2px #CD0000,
+  3px 3px 3px 3px #CD0000,
+  4px 4px 4px 4px #CD0000;
+  -webkit-transform: translateX(-2px);
+  transform: translateX(-2px);
+}
+.card-container {
+  cursor: pointer;
+  height: 150px;
+  perspective: 600;
+  position: relative;
+  width: 150px;
+}
+.card {
+  height: 100%;
+  position: absolute;
+  transform-style: preserve-3d;
+  transition: all 1s ease-in-out;
+  width: 100%;
+}
+.card:hover {
+  transform: rotateY(180deg);
+}
+.card .side {
+  backface-visibility: hidden;
+  border-radius: 6px;
+  height: 100%;
+  position: absolute;
+  overflow: hidden;
+  width: 100%;
+}
+.card .back {
+  background: #8B1A1A;
+  color: #FFD700;
+  line-height: 150px;
+  text-align: center;
+  font-size: 20px;
+  transform: rotateY(180deg);
+}

@@ -1,0 +1,14 @@
+body{
+	margin: 0;
+}
+
+nav{
+	height: 100px;/*Normalmente é altura de um menu horizontal */
+	background-color: #999999;
+}
+
+footer{
+	margin-top: 90px;
+	height: 100px;
+	background-color: #CCCCCC;
+}

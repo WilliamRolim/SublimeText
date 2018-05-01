@@ -1,0 +1,52 @@
+body{
+	margin: 0;
+}
+
+.exemplo1{
+	width: 150px;
+	height: 150px;
+	background-color: green;
+	margin:auto;
+	margin-top: 100px; 
+	/*Transição toda mudança de propriedade irá acontecer em determinado ritmo */
+	transition:all 1s linear;/*Aplicar Transição em todos os elementos /
+	 linear: começar e terminar na mesma velocidade; */
+
+}
+
+/*quando passar o mouse no quadrado ele dobre de largura */
+/*Transição */
+
+.exemplo1:hover{
+	width: 300px;
+}
+
+.exemplo2{
+	width: 150px;
+	height: 150px;
+	background-color:#FF7F50;
+	margin:auto;
+	margin-top: 100px; 
+	/*Transição toda mudança de propriedade irá acontecer em determinado ritmo */
+	transition:all 1s linear;/*Aplicar Transição em todos os elementos /
+	 linear: começar e terminar na mesma velocidade; */
+
+}
+
+/*quando passar o mouse no quadrado ele dobre de largura */
+/*Transição */
+
+.exemplo2:hover{
+	background-color:#FFA500;
+}
+
+a{
+	color: #22313F;
+	transition: all 1s linear;/*controla o tempo de transição em qualquer coisa que eu tiver na minha tela*/
+	font-size: 30px;
+}
+
+a:hover{
+	color:#F9690E;
+}
+

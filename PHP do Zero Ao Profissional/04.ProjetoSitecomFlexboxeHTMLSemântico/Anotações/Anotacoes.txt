@@ -1,0 +1,7 @@
+Um site é construido de cima para baixo e da esquerda para direita.
+
+Direita para esquerda somente se for fazer um site arabe
+
+Container não pode ter largura e nem fundo(cor)
+	<meta name="viewport" content="width-width,user-scalable=0"><!-- tag que irá transformar o site em responsivo 
+-A largura do meu site vai ter a largura do meu dispositivo que estou accessando -->

@@ -1,0 +1,58 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Exemplo 03</title>
+    <style>
+    article {
+        width: 400px;
+        height: 200px;
+        background-color: #FFF;
+    }
+
+    .gradiente1{
+        /*linear-gradient([ângulo/direção],cor1,cor2,corN)*/
+        background: linear-gradient(green, red, #FF0);
+
+        /* Observe que os valores com % são os pontos onde começa uma cor (valores crescentes), usando o ponto  central da faixa. Por exemplo, o centro da faixa ou gradiente da cor amarela (#FF0) está no centro da div:  */
+
+        /*background: linear-gradient(0deg, green, red 33%, #FF0 50%, blue 75%);*/     
+    }
+
+    .gradiente2{
+        /*radial-gradient([forma] | [tamanho] | at [posição], cor1, cor2, corN) */
+        background: -webkit-linear-gradient(left top, green, red, #FF0, cyan);
+        /* Experimente testar com 45deg em lugar de left top, adicione mais cores: */
+    }
+
+    .radial1{
+     background: radial-gradient(yellow, blue, green);
+ }
+
+ .radial2{
+    /*Repetição de gradiente*/
+    /* Experimente com percentuais 20% e 30% para aneis mas largos e valores menores de %5 e 10% para aneis mais finos (sempre percentuais crescentes): */
+
+    background: repeating-radial-gradient(yellow, blue 10%, green 20%);
+}
+
+.radial3{
+    /* observe que os valores com % são os pontos onde começa uma cor (valores crescentes) e que quanto menor as percentuais maior será o número de repetições: */
+    background: -webkit-repeating-linear-gradient(top left, black, red 5%, yellow 10%);           
+}
+
+
+</style>
+</head>
+
+<body>
+    <article class="gradiente1"></article><br>
+    <article class="gradiente2"></article><br>
+    <article class="radial1"></article><br>
+    <article class="radial2"></article><br>
+    <article class="radial3"></article>
+
+</body>
+
+</html>

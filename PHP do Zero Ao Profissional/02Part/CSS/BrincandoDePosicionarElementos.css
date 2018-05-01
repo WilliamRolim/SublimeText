@@ -1,0 +1,38 @@
+body{
+	margin: 0;
+}
+
+.menu{
+	width: 1374px;
+	height: 100px;
+	background-color:#000000;
+}
+
+.menu1{
+	position: absolute;
+	left: 0;
+	width: 687px;
+	height: 100px;
+	background-color: #2F4F4F;
+}
+
+.menu2{
+	position: absolute;
+	right:0;
+	width: 687px;
+	height: 100px;
+	background-color: #696969; /*cinza claro */
+}
+
+.corpo{
+	width: 1374px;
+	height: 485px;
+	background-color: #778899;
+}
+
+.rodape{
+	width: 1374px;
+	height: 90px;
+	background-color: black;
+
+}

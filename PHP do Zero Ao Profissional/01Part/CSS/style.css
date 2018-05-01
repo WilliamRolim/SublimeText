@@ -1,0 +1,27 @@
+body{
+   background-color: #191970;
+   color: #BC8F8F;
+}
+
+h1{
+color:#FFFF00;
+}
+
+img{
+width: 400px;
+height: 300px;
+}
+
+.devilgirl{/* pode ser usado para um unico elemento */{
+	width: 500px;
+	height: 400px;
+}
+
+.angel{
+	width: 500px;
+	height: 400px;
+}
+
+#titulo{/* id apenas para um unico elemento */
+	font-size: 42px;
+}

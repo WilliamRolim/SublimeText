@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>FlexBox Alinhamento</title>
+	<style type="text/css">
+		.container1{
+			display: flex;
+			height: 500px;
+			flex-direction: row;
+			justify-content: center;/*-Alinhamento centro*/
+			align-items: center;
+			background-color: #D2691E;
+		}
+
+		.div10{
+			align-self:flex-start; /*-Alinhe esse mesmo -Alinhamento desse item especifico -Serve para sobescrever o align-item do seu container*/
+		}
+
+			.container2{
+			display: flex;
+			height: 300px;
+			flex-direction: row;
+			justify-content: flex-end;/*-Alinhamento onde o flex acaba na direita*/
+			background-color: #D2691E;
+		}
+			.container3{
+			display: flex;
+			height: 300px;
+			flex-direction: row;
+			justify-content: space-around;/*-Vai alinhar os itens conforme o espaçamento entre eles seja igual*/
+			background-color: #D2691E;
+		}
+
+			.container4{
+			display: flex;
+			height: 300px;
+			flex-direction: row;
+			justify-content: space-between;/*Primeiro item colado no lado esquerda, segundo item colado do lado direito e outros no meio da tela*/
+			background-color: #D2691E;
+		}
+
+			.container5{
+			display: flex;
+			height: 300px;
+			flex-direction: row;
+			justify-content: flex-start;
+			align-items: center;
+			background-color: #D2691E;
+		}
+			.container6{
+			display: flex;
+			height: 300px;
+			flex-direction: row;
+			justify-content: flex-end;
+			align-items: center;
+			background-color: #D2691E;
+		}
+			.container7{
+			display: flex;
+			height: 300px;
+			flex-direction: row;
+			justify-content: flex-end;
+			align-items: flex-end;
+			background-color: #D2691E;
+		}
+
+
+
+		.container1 div,
+		.container2 div,
+		.container3 div,
+		.container4 div,
+		.container5 div,
+		.container6 div,
+		.container7 div{
+			width:100px;
+			height: 100px;
+			background-color: #DEB887;
+			margin: 10px;
+			padding: 10px;
+			font-size: 18px;
+		}
+	</style>
+</head>
+<body>
+	<div class="container1">
+			<div>1</div>
+			<div>2</div>
+			<div>3</div>
+			<div>4</div>
+			<div>5</div>
+			<div>6</div>
+			<div>7</div>
+			<div>8</div>
+			<div>9</div>
+			<div class="div10">10</div>
+			<div>11</div>
+			<div>12</div>
+			<div>13</div>
+			<div>14</div>
+			<div>15</div>
+	</div>
+		</div>
+		<div>
+		<h1>Alinhamentos</h1>
+		<p>align-self:flex-start; /*-Alinhe esse mesmo -Alinhamento desse item especifico <mark>Serve para sobescrever o align-item do seu container</mark></p>
+		<p>justify-content: flex-start;/*-Alinhamento da esquerda para direita*/</p>
+		<p>justify-content: flex-end;/*-Alinhamento onde o flex acaba na direita*/</p>
+		<p>space-around:Vai alinhar os itens conforme o espaçamento entre eles seja igual - TOdos os espaçamentos são iguais</p>
+	</div>
+</body>
+</html>

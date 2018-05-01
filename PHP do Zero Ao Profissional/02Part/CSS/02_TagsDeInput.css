@@ -1,0 +1,22 @@
+*{
+	font-family: Arial;
+}
+body{
+	margin: 0;
+	height: 500px;
+	background-color: #5F9EA0;
+}
+div{
+top:32px; 
+position: absolute;
+left: 470px; 
+}
+table{
+	background-color: #AFEEEE;
+	border-color: #191970;
+	position: absolute;
+	top:150px;
+	left: 470px;
+	width: 400px;
+
+}

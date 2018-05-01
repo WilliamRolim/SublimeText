@@ -1,0 +1,12 @@
+Boa noite a todos
+
+var no menu Preferences -> Key bindings 
+Vai aparecer duas abas,na aba da direita(custom), você informa o código abaixo.
+{"keys": ["ctrl+k+d"],"command": "reindent"} ou outro do seu gosto, caso seja outro,verifique se 
+na aba da direita existe esse comando. no meu caso seu eu pressionar somente a teclar ["ctrl+d"] ele identa,
+obs: Para o código ser identado você tem que selecionar, ele não é como outras IDEs que você não precisar 
+selecionar o código. espero ter ajudado.
+
+logo abaixo um gif com o exemplo usado.
+
+ctrl+ a + d; Edentar codigo no sublime
