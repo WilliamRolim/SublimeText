@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Modificando o HTML</title>
+	<script type="text/javascript" src="../js/modificandoHtml.js">
+		
+	</script>
+</head>
+<body>
+	<section id="area">
+		<h2><strong>Mudar o nome do conteudo HTML</strong></h2>
+		<br>
+		<br>
+		Alguma coisa...
+	</section>
+	<br>
+	<br>
+	<!-- onclick ao clicar nesse botão 
+		innerHTML(html interno) substitui o conteudo do html (section)-->
+		<button onclick="document.getElementById('area').innerHTML= prompt('Qual seu nome? ');">Fazer a ação</button>
+		<br>
+		<br><!-- this esse proprio elemento -->
+		<h2><strong>Mudar o nome do botão</strong></h2>
+		<button onclick="this.innerHTML = prompt('Qual o nome do botão?')";">Fazer a ação</button>
+
+	</body>
+	</html>
