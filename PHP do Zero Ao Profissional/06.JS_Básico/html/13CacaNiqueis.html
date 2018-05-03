@@ -1,0 +1,60 @@
+<html>
+	<head>
+		<meta charset="UTF-8"/>
+		<title>Caça níquel</title>
+		<style type="text/css">
+		#n1,
+		#n2,
+		#n3 {
+			width: 200px;
+			height: 200px;
+			border: 1px #000 solid;
+			float:left;
+			margin-right: 10px;
+			font-size: 120px;
+			text-align: center;
+			line-height: 200px;
+			background-color: #EEE;
+		}
+		#resultado{
+			width: 625px;
+			height: 60px;
+			border: 1px #000 solid;
+			margin-top: 10px;
+			font-size: 40px;
+			text-align: center;
+			line-height: 60px;
+			background-color: #EEE;			
+		}
+		#placar{
+			width: 625px;
+			height: 60px;
+			border: 1px #000 solid;
+			margin-top: 10px;
+			font-size: 20px;
+			text-align: center;
+			line-height: 20px;
+			background-color: #EEE;			
+		}		
+		button{
+			width: 625px;
+			height: 60px;
+			border: 1px #000 solid;
+			margin-top: 10px;
+			font-size: 20px;
+		}
+		</style>
+		<script type="text/javascript" src="../js/13CacaNiqueis.js"></script>
+	</head>
+	<body onload="limpar()">
+		<div id="n1">0</div>
+		<div id="n2">0</div>
+		<div id="n3">0</div>
+		<div style="clear:both"></div>
+		<button onclick="jogar()">JOGAR</button>
+		<div id="resultado"></div>
+		<div id="placar">
+			VITORIAS = 0 <br> NA TRAVE = 0 <br> DERROTAS = 0
+		</div>
+	</body>
+</html>

@@ -1,0 +1,5 @@
+FTP (file transfer procol)
+protocolo de transferencia de arquivos.Atraves dele nos fazemos transferencias de arquivos
+da nossa maquina para o servidor.
+2 softwares que faz essa transferencia, do meu computador envio das informações e do servidor
+recebe as informçãos e guardar as informações do servidor
