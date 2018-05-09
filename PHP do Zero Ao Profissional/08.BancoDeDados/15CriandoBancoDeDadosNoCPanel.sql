@@ -1,0 +1,1 @@
+-- passar o banco de dados para uma hospedagem externa

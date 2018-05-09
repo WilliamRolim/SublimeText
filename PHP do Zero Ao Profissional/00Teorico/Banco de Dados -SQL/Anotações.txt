@@ -1,0 +1,20 @@
+msql 
+apache porta 80
+banco de dados 3306
+
+Com o servidor aberto (wamp)
+http://localhost/phpmyadmin
+
+Quando vc cria um site não é ideal dar total permissão para aquele usuario que irá manusear o seu sistema, se esse usuario
+for hackeado ele não vai ter privilegio para excluir seu banco de dados. Nunca dar todas as permissões para o usuario principal
+que irá manusear.
+
+criando banco de dados atravez de linha de comando
+CREATE DATABASE 00teste;
+
+conta_nomedobanco de dados;
+
+Nenhum nome de tabela usa caracteres especiais nem começa com números.
+Tudo no banco não tem carteres especiais
+
+ID : Campo que identifica a linha da tabela (usuario) 

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Eventos de teclado</title>
+	<meta charset="utf-8">
+	<script type="text/javascript" src="../js/02EventosDeTeclado.js"></script>
+</head>
+<body>
+	<section>
+		<strong>Testando Eventos de teclado: </strong>
+		<br>	<br>
+		<p>onkeydown = Saber que o usuario digitou qualquer coisa no teclado, só quando aperta, não quer saber que o usuario ficou segurando o comando não.
+		</p>
+		<input type="text" id="texto" onkeydown="apertouTecla(event)" >
+		<br>	<br>
+		<p>onkeyup = Detectar o número de caracteres pressionados pelo usuario para efetuar alguma ação."Detectar quando ele solta a tecla não quando ele aperta"
+			Ex: Quero que o usuario só digite 10 caracteres no 11 executa a ação proposta
+		</p>
+		<input type="text" id="texto" onkeyup="apertouTecla2(event)" >
+		<br>	<br>
+		<p>onkeypress = quando o botão estiver pressionado ele executa essa ação.
+		</p>
+		<input type="text" id="texto" onkeypress="apertouTecla3(event)" >
+		<br>	<br>
+		<p>Shiftkey = Saber que o shift está pressionado combinado com outra tecla.Essa propriedade somente retorna (true or false)
+		</p>
+		<input type="text" id="texto" onkeypress="apertouTecla4(event)" >
+		<br>	<br>
+		<p>ctrlkey = Saber que o control (ctrl) está pressionado combinado com outra tecla.Essa propriedade somente retorna (true or false)
+		</p>
+		<input type="text" id="texto" onkeypress="apertouTecla5(event)" >
+		<br>	<br>
+		<p>altkey = Saber que o alt está pressionado combinado com outra tecla.Essa propriedade somente retorna (true or false)
+		</p>
+		<input type="text" id="texto" onkeypress="apertouTecla6(event)" >
+		<br>	<br>
+		<p>Verificando se o usuario pressionou o shift mais tecla especifica. Lembre-se tem que descobrir a númeração da tecla para testar.
+		</p>
+		<input type="text" id="texto" onkeypress="apertouTecla7(event)" >
+		<br>	<br>
+		<p>metakey = (Apenas Apple (mac)) Saber que o meta está pressionado combinado com outra tecla.Essa propriedade somente retorna (true or false)
+		</p>
+		<input type="text" id="texto" onkeypress="apertouTecla8(event)" >
+	</section>
+</body>
+</html>

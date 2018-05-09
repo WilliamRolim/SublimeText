@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>EventosDeMouse</title>
+	<meta charset="utf-8">
+	<script type="text/javascript" src="../js/01EventosDeMouse.js"></script>
+</head>
+<body>
+	<button onmousedown="clickMouse()">Clicou no Botao</button>
+	<br>
+	<br>
+	<button onmouseout="soltouMouse()">Soltou o Mouse</button>
+	<br>
+	<br>
+	<button onmouseover="cursorNoBotao()">Passar o Mouse</button>
+	<br>
+	<br>
+	<button onmouseout="mouseSaiuDeCima()">Mouse saiu de cima</button>
+	<br>
+	<br>
+	<button onmousemove="moveuMouseSobreBotao()">Mouse esta sendo movido dentro do botao</button>
+	<br>
+	<br>
+	<button onclick="clicou()">Clicou</button><!-- onmouseup eventos sinonimos-->
+	<br>
+	<br>
+	<button oncontextmenu="botaoDireitoDoMouse()">Botao direito do Mouse</button>
+	<br>
+	<br>
+	<!-- return false Negando que o evento aconteceu --> 
+	<!-- não aparece mais os botões ao clicar com o direito do mouse --> 
+	<button oncontextmenu="return false">Botao direito do Mouse</button>
+	<br>
+	<br>
+	<!-- combinando eventos -->
+	<button oncontextmenu="return botaoDireitoDoMouse()">Combinando funções = Botao direito do Mouse sem mostrar barras de escolha</button>
+	<br>
+	<br>
+	<button ondblclick="cliqueDuplo()">Clicou 2 vezes</button>
+
+</body>
+</html>
