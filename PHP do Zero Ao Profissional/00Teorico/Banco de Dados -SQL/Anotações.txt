@@ -18,3 +18,5 @@ Nenhum nome de tabela usa caracteres especiais nem começa com números.
 Tudo no banco não tem carteres especiais
 
 ID : Campo que identifica a linha da tabela (usuario) 
+
+criptografia MD5 pega a senha e criptografa ela e gera um codigo de 32 caracteres
