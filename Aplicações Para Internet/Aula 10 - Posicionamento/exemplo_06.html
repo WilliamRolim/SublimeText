@@ -1,0 +1,131 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <title>Layout 1</title>
+    <meta charset="utf-8" />
+    <style type="text/css">
+
+    body {
+        margin: 0;
+        padding: 0;
+        font: 76% arial;
+
+    }        
+
+    #header {
+        width: 100%;
+    }
+
+    #header h1 {
+        color: beige;
+        background-color: aquamarine;
+        height: 80px;
+        line-height: 80px;/*altura da linha*/
+        margin: 0;/*colar em cima*/
+        padding-left: 10px;
+    }
+
+    #navigation {
+        background-color: lightcoral;
+        float: left;/*• O elemento após o elemento flutuante seguirá o fluxo em torno dele.*/
+        width: 25%;
+    }
+
+    #wrapper {
+        background-color: lightgreen;
+        width: 50%;
+        height: 10%;
+        float: left;
+    }
+
+    #extra {
+        background-color: lightpink;
+        width: 25%;
+        float: left;
+    }
+
+    #footer {
+        background-color: black;
+        color:white;
+        width: 100%;
+        clear: both;/*A propriedade clear: both limpará o efeito de flutuação.*/
+    }
+
+    #footer p {
+        margin: 0;
+        padding: 5px 10px;
+    }       
+
+    #container{
+        width: 800px;
+        margin: 0 auto;
+    }
+</style>
+</head>
+<body>
+    <div id="container">
+        <div id="header">
+            <h1>Cabeçalho</h1>
+        </div>
+        <div id="navigation">
+            Navegação
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/> Navegação
+        </div>
+        <div id="wrapper">
+            <div id="content">
+                Conteúdo
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/> Conteúdo
+            </div>
+        </div>        
+        <div id="extra">
+            Extra
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/> Extra
+        </div>
+        <div id="footer">
+            <p>Rodapé</p>
+        </div>
+    </div>
+</body>
+
+</html>
