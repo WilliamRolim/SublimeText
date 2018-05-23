@@ -11,8 +11,9 @@ http://127.0.0.1/ ou http://localhost
 IP padrão que leva para nossa propria placa de rede
 
 Criando um novo host.
+
 1)Executar o bloco de notas como adm
-2)C:/Windows/System32/drivers/etc/ --->Seleciona o arquivo host (caso não aparecer hosts, selecine a opc all files
+2)C:/Windows/System32/drivers/etc/ ---> Seleciona o arquivo host (caso não aparecer hosts, selecine a opc all files
 3)Digite: 127.0.0.1       projetox.pc
   	  127.0.0.1       projetoy.pc
 4)Wamp só executara os projetos em php que estiver nessa pasta: (no xamp ou mamps httpdocs)
@@ -29,7 +30,9 @@ CTRL + F
 #Include conf/extra/httpd-vhosts.conf
 Descomentar
 Include conf/extra/httpd-vhosts.conf  (fica assim)
+
 Ir na pasta extra
+
 Abrir o arquivo
 httpd-vhosts
 
@@ -90,6 +93,6 @@ Ele lista os arquivos que se encontram na sua pasta
 
 
 
-
+http://09.phpintermediario.pc/01.While.php
 
 
